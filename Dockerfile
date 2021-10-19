@@ -1,6 +1,6 @@
 FROM node:16
 WORKDIR /usr/lib/app
-COPY package*.json ./
+COPY package*.json ./nestjs-notes-todo-master
 RUN npm install
 RUN npm run build
 EXPOSE 3000
